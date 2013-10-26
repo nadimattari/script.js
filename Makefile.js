@@ -2,6 +2,7 @@ require('smoosh').config({
     "JAVASCRIPT": {
       "DIST_DIR": "./dist"
     , "script": ['./src/header.js', './src/script.js']
+    , "embd.script": ['./src/embedded.header.js', './src/embedded.script.js']
   }
   , "JSHINT_OPTS": {
       "boss": true
